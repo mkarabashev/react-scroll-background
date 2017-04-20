@@ -1,0 +1,14 @@
+# Node files
+node_modules
+
+# Debug logs
+*.log*
+
+# Mac trash
+DS_STORE
+
+# Istanbul reports
+coverage
+.nyc_output
+
+*.zip
