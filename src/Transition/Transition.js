@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import hexToRgb from 'hex-rgb';
-import rgbToHex from 'rgb-hex';
+import hexToRgb from '../utils/hex-rgb';
+import rgbToHex from '../utils/rgb-hex';
 
 class Transition extends Component {
   constructor(props) {

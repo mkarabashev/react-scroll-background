@@ -35,9 +35,11 @@ class AnimatedBg extends Component {
         const { color, activity } = colorArr[i];
 
         if (activity === 'pre' && i + 1 !== this.keyNum) continue;
-        if (color !== this.state.backgroundColor) return this.setState ({
+        if (color !== this.state.backgroundColor) this.setState ({
           backgroundColor: color
         });
+
+        break;
       }
     }
   }
