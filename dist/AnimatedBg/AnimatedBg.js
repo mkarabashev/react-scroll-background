@@ -71,9 +71,11 @@ var AnimatedBg = function (_Component) {
 
 
           if (_activity === 'pre' && i + 1 !== this.keyNum) continue;
-          if (_color !== this.state.backgroundColor) return this.setState({
+          if (_color !== this.state.backgroundColor) this.setState({
             backgroundColor: _color
           });
+
+          break;
         }
       }
     }

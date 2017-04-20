@@ -18,11 +18,11 @@ var _propTypes = require('prop-types');
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hexRgb = require('hex-rgb');
+var _hexRgb = require('../utils/hex-rgb');
 
 var _hexRgb2 = _interopRequireDefault(_hexRgb);
 
-var _rgbHex = require('rgb-hex');
+var _rgbHex = require('../utils/rgb-hex');
 
 var _rgbHex2 = _interopRequireDefault(_rgbHex);
 

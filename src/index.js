@@ -1,2 +1,2 @@
-export AnimateBg from './AnimatedBg';
+export AnimatedBg from './AnimatedBg';
 export Transition from './Transition';
