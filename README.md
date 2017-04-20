@@ -4,7 +4,7 @@ This module provides an easy way to transition the background color when you scr
 
 ### Install
 ```js
-$ npm install react-scroll-background
+$ npm install scroll-background
 ```
 
 ### Run
@@ -18,7 +18,7 @@ $ npm run build
 
 import React from 'react';
 import { render } from 'react-dom';
-import { AnimatedBg, Transition } from 'react-scroll-background';
+import { AnimatedBg, Transition } from 'scroll-background';
 
 const Example = () => (
   <AnimatedBg>
