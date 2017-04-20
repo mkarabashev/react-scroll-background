@@ -91,7 +91,7 @@ class Transition extends Component {
   }
 
   render() {
-    const { height, children } = this.props;
+    const { height = 0, children } = this.props;
 
     return (
       <div>
@@ -107,7 +107,7 @@ class Transition extends Component {
 Transition.propTypes = {
   eventKey: PropTypes.number,
   handleTransition: PropTypes.func,
-  height: PropTypes.string.isRequired,
+  height: PropTypes.string,
   from: PropTypes.string.isRequired,
   to: PropTypes.string.isRequired,
   position: PropTypes.number
