@@ -1,7 +1,7 @@
 {
-  "name": "react-scroll-background",
+  "name": "scroll-background",
   "author": "Maxim Karabashev",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "background color transition on scroll",
   "repository": {
     "type": "git",
