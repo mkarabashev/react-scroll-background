@@ -1,6 +1,6 @@
 ## React Scroll Background
 
-This module provides an easy way to transition the background color when you scroll through a specified element within the page. An example can be found at [Live]()
+This module provides an easy way to transition the background color when you scroll through a specified element within the page. An example can be found at [Live](https://mkarabashev.github.io/react-scroll-background/)
 
 ### Install
 ```js
