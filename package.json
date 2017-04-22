@@ -1,7 +1,7 @@
 {
   "name": "scroll-background",
   "author": "Maxim Karabashev",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "background color transition on scroll",
   "repository": {
     "type": "git",

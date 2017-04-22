@@ -1,5 +1,5 @@
 /* eslint-disable no-mixed-operators */
-// code taken and adjusted from rgb-hex because their module concentrates on node env
+// code taken and adjusted from rgb-hex v.1 because their module concentrates on node env
 export default (red, green, blue, alpha) => {
 	const isPercent = (red + (alpha || '')).toString().includes('%');
 

@@ -1,5 +1,5 @@
 /* eslint-disable no-mixed-operators */
-// code taken and adjusted from hex-rgb because their module concentrates on node env
+// code taken and adjusted from hex-rgb v2.1.0 because their module concentrates on node env
 export default function (hex) {
 	if (typeof hex !== 'string') {
 		throw new TypeError('Expected a string');

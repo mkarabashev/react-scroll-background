@@ -24,7 +24,6 @@ class Transition extends Component {
   }
 
   handleBg() {
-    // props and fns
     const {
       calcPosition,
       calcProgress,
@@ -32,7 +31,6 @@ class Transition extends Component {
       props: { from, to, eventKey, handleTransition }
     } = this;
 
-    // position of the elements
     const { vh, beginPos, endPos } = calcPosition();
 
     // send back the bg color
